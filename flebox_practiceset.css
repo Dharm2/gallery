@@ -77,7 +77,7 @@ body {
       .first {
         width: 400px;
         height: 400px;
-        background: url(images/9.jpg);
+        background: url(https://source.unsplash.com/437SJXrHQF4/);
         /* background-position: top left; */
         background-size: cover;
       }
@@ -85,7 +85,8 @@ body {
       .second {
         height: 400px;
         width: 400px;
-        background: url(images/6.jpg);
+        background: url(https://source.unsplash.com/Zwns6m4q640/);
+        /* background: url(images/6.jpg); */
         /* background-position: top left; */
         background-size: cover;
 
@@ -93,7 +94,7 @@ body {
       .third {
         height: 400px;
         width: 400px;
-        background: url(images/5.jpg);
+        background: url(https://source.unsplash.com/6OOU-VK2bhU/);
         /* background-position: top left; */
         background-size: cover;
         background-position: center;
@@ -102,7 +103,7 @@ body {
       .fourth {
         height: 400px;
         width: 400px;
-        background: url(images/11.jpg);
+        background: url(https://source.unsplash.com/B4nh4eF_QPk/);
         /* background-position: top left; */
         background-size: cover;
         background-position: center;
@@ -111,7 +112,7 @@ body {
       .fifth {
         height: 400px;
         width: 400px;
-        background: url(images/10.jpg);
+        background: url(https://source.unsplash.com/bOBM8CB4ZC4/);
         /* background-position: top left; */
         background-size: cover;
         background-position: center;
@@ -120,7 +121,7 @@ body {
       .sixth {
         height: 400px;
         width: 400px;
-        background: url(images/2.jpg);
+        background: url(https://source.unsplash.com/3p0frYbUNV8/);
         /* background-position: top left; */
         background-size: cover;
         background-position: center;
@@ -129,7 +130,7 @@ body {
       .seventh {
         height: 400px;
         width: 400px;
-        background: url(images/12.jpg);
+        background: url(https://source.unsplash.com/3oBM1QXR--Q/);
         /* background-position: top left; */
         background-size: cover;
         background-position: center;
@@ -138,7 +139,7 @@ body {
       .eigth {
         height: 400px;
         width: 400px;
-        background: url(images/13.jpg);
+        background: url(https://source.unsplash.com/1e981IsHCa0/);
         /* background-position: top left; */
         background-size: cover;
         background-position: center;
@@ -147,7 +148,7 @@ body {
       .ninth {
         height: 400px;
         width: 400px;
-        background: url(images/2.jpg);
+        background: url(https://source.unsplash.com/7m8FAUDMZCM/);
         /* background-position: top left; */
         background-size: cover;
         background-position: center;
@@ -156,7 +157,7 @@ body {
       .tenth {
         height: 400px;
         width: 400px;
-        background: url(images/3.jpg);
+        background: url(https://source.unsplash.com/cf4ucL4gh3Y/);
         /* background-position: top left; */
         background-size: cover;
         background-position: center;
