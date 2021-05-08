@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+body {
+  background-color: red;
+  box-sizing: border-box;
+}
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Rubik', serif;
+      }
+      .mainul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        background: black;
+        color: white;
+        height: 100px;
+        font-size: 25px;
+        font-weight: 400;
+        
+      }
+
+      ul {
+        list-style-type: none;
+      }
+
+      li {
+        padding: 0 20px;
+        cursor: pointer;
+      }
+
+      .li1::after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 3px;
+        background: rgb(241, 121, 100);
+        transition: width .5s;
+
+      }
+      .li2::after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 3px;
+        background: rgb(241, 121, 100);
+        transition: width .5s;
+      }
+      .li3::after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 3px;
+        background:rgb(241, 121, 100);
+        transition: width .5s;
+      }
+
+      .li1:hover::after{
+        width: 100%;
+      }
+      .li2:hover::after{
+        width: 100%;
+      }
+      .li3:hover::after{
+        width: 100%;
+      }
+
+      .container {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+      }
+      .first {
+        width: 400px;
+        height: 400px;
+        background: url(images/9.jpg);
+        /* background-position: top left; */
+        background-size: cover;
+      }
+
+      .second {
+        height: 400px;
+        width: 400px;
+        background: url(images/6.jpg);
+        /* background-position: top left; */
+        background-size: cover;
+
+      }
+      .third {
+        height: 400px;
+        width: 400px;
+        background: url(images/5.jpg);
+        /* background-position: top left; */
+        background-size: cover;
+        background-position: center;
+
+      }
+      .fourth {
+        height: 400px;
+        width: 400px;
+        background: url(images/11.jpg);
+        /* background-position: top left; */
+        background-size: cover;
+        background-position: center;
+
+      }
+      .fifth {
+        height: 400px;
+        width: 400px;
+        background: url(images/10.jpg);
+        /* background-position: top left; */
+        background-size: cover;
+        background-position: center;
+
+      }
+      .sixth {
+        height: 400px;
+        width: 400px;
+        background: url(images/2.jpg);
+        /* background-position: top left; */
+        background-size: cover;
+        background-position: center;
+
+      }
+      .seventh {
+        height: 400px;
+        width: 400px;
+        background: url(images/12.jpg);
+        /* background-position: top left; */
+        background-size: cover;
+        background-position: center;
+
+      }
+      .eigth {
+        height: 400px;
+        width: 400px;
+        background: url(images/13.jpg);
+        /* background-position: top left; */
+        background-size: cover;
+        background-position: center;
+
+      }
+      .ninth {
+        height: 400px;
+        width: 400px;
+        background: url(images/2.jpg);
+        /* background-position: top left; */
+        background-size: cover;
+        background-position: center;
+
+      }
+      .tenth {
+        height: 400px;
+        width: 400px;
+        background: url(images/3.jpg);
+        /* background-position: top left; */
+        background-size: cover;
+        background-position: center;
+
+      }
+      
+
+      img{
+        width: 45px;
+        height: 45px;
+        align-self: center;
+        display: none;
+      }
+
+
+      a{
+        text-decoration: none;
+        color: white;
+      }
+      
+
+
+      @media only screen and (max-width:400px){
+        .li1, .li2, .li3{
+          display: none;
+          
+
+        }
+        .mainul{
+          justify-content: center;
+        }
+        img{
+          display: block;
+          align-self: center;
+        }
+        .container{
+          flex-wrap: wrap;
+        }
+        .cancel{
+          background: url(images/cancel.png);
+        }
+  
+        
+  
+
+
+      }
+
+
+
+      #menu1{
+          display: none;
+          background-color: black;
+          color: white;
+          color: white;
+          height: 100px;
+          font-size: 23px;
+          font-weight: 400;
+          width: 100%;
+          height: 120px;
+          align-items: center;
+      }
+
+
+
+
+
+      @media only screen and (max-width:400px){
+
+        #menu1{
+            display: none;
+            justify-content: center;
+        }
+        .limenu1{
+            text-align: center;
+            padding: 5px 0;
+        }
+        
+        .limenu2{
+            text-align: center;
+            padding: 5px 0;
+
+        }
+        
+        .limenu3{
+            text-align: center;
+            padding-top: 5px;
+            padding-bottom: 5px;
+
+        }
+
+        .menushort:hover #menu1
+        {
+            display: flex;
+            justify-content: center;
+        }
+        
+
+      }
+
+      @media only screen and (min-width: 1920px) {
+        #menu1{
+          display: none;
+        }
+      }

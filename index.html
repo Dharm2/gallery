@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=BioRhyme&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Practice Set</title>
+    <link rel="stylesheet" href="flebox_practiceset.css" />
+  </head>
+  <body>
+    <header>
+      <ul class="mainul" id="mainu1">
+        <li class="li1"><a href="flexbox_practiceset.html" target="_blank">HOME</a></li>
+        <li class="li2"><a href="gallery2.html" target="_blank">GALLERY2</a></li>
+        <li class="li3"><a href="http://www.liveclock.ml/" target="_blank">CLOCK</a></li>
+        <img id="image" src="images/hamburger_grey.png"  onclick="showmenu()" />
+      </ul>
+
+      <div class="menushort" id="menu1">
+        <ul>
+          <li class="limenu1"><a href="flexbox_practiceset.html" target="_blank">HOME</a></li>
+          <li class="limenu2"><a href="gallery2.html" target="_blank">GALLERY2</a></li>
+          <li class="limenu1"><a href="http://www.liveclock.ml/" target="_blank">CLOCK</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="first"></div>
+      <div class="second"></div>
+      <div class="third"></div>
+      <div class="fourth"></div>
+      <div class="fifth"></div>
+      <div class="sixth"></div>
+      <div class="seventh"></div>
+      <div class="eigth"></div>
+      <div class="ninth"></div>
+      <div class="tenth"></div>
+    </div>
+
+
+    <!-- JAVASCRIPT -->
+    <script>
+
+      console.log("Screen Width is " + screen.width);
+
+      // var mainul = document.getElementById('mainu1');
+      var menu1 = document.getElementById('menu1');
+      var img1 = document.getElementById('image');
+      var width = $(window).width();
+
+      function showmenu(){
+        // menu1.style.display = 'block';
+
+          
+          if (menu1.style.display === "none") {
+            menu1.style.display = "block";
+            document.getElementById('image').src = 'images/cancel.png';
+            img1.style.transition = 'all 1s';
+            if(width > '400px'){
+              menu1.style.display = "none";
+            }
+
+            } else {
+           menu1.style.display = "none";
+           document.getElementById('image').src = 'images/hamburger_grey.png';
+           img1.style.transition = 'all 1s';
+           }
+
+      }
+
+
+    </script>
+
+  </body>
+</html>
