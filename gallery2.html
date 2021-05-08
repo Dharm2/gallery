@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <title>Gallery DB</title>
-    <link rel="shortcut icon" href="images/dhrm.png" type="image/x-icon">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
 
@@ -39,6 +38,7 @@
   {
       display: block;
       margin-top: 10px;
+      position: relative;
   }
 
   .text a h1{
@@ -48,6 +48,31 @@
     font-family: 'Montserrat',sans-serif;
     text-decoration: none;
     
+  }
+  .text a:visited{
+    text-decoration: none;
+  }
+  .text a::before{
+    content: '';
+    position: relative;
+    display: block;
+    /* opacity: 0; */
+    top: 44px;
+    left: 45.5%;
+    /* width: 169px; */
+    width: 0px;
+    height: 2px;
+    background-color: white;
+    transition: all 0.5s;
+
+  }
+  .text a:hover{
+    text-decoration: none;
+
+  }
+  .text a:hover::before{
+    /* opacity: 1; */
+    width: 169px;
   }
 
 </style>
@@ -63,54 +88,57 @@
     
     
     <div class="item col-sm-6 col-md-4 mb-3">
-      <a href="images/5.jpg" class="fancybox" data-fancybox="gallery1">
-        <img src="images/5.jpg" width="100%" height="100%">
+      <a href="https://source.unsplash.com/437SJXrHQF4/" class="fancybox" data-fancybox="gallery1">
+        <img src="https://source.unsplash.com/437SJXrHQF4/" width="100%" height="100%">
+      </a>
+      <!-- <a href="https://source.unsplash.com/437SJXrHQF4/" class="fancybox" data-fancybox="gallery1">
+        <img src="https://source.unsplash.com/437SJXrHQF4/" width="100%" height="100%">
+      </a> -->
+    </div>
+
+   <div class="item col-sm-6 col-md-4 mb-3">
+      <a href="https://source.unsplash.com/Zwns6m4q640/" class="fancybox" data-fancybox="gallery1">
+        <img src="https://source.unsplash.com/Zwns6m4q640/" width="100%" height="100%">
       </a>
     </div>
 
    <div class="item col-sm-6 col-md-4 mb-3">
-      <a href="images/6.jpg" class="fancybox" data-fancybox="gallery1">
-        <img src="images/6.jpg" width="100%" height="100%">
+      <a href="https://source.unsplash.com/6OOU-VK2bhU/" class="fancybox" data-fancybox="gallery1">
+        <img src="https://source.unsplash.com/6OOU-VK2bhU/" width="100%" height="100%">
       </a>
     </div>
 
    <div class="item col-sm-6 col-md-4 mb-3">
-      <a href="images/7.jpg" class="fancybox" data-fancybox="gallery1">
-        <img src="images/7.jpg" width="100%" height="100%">
+      <a href="https://source.unsplash.com/B4nh4eF_QPk/" class="fancybox" data-fancybox="gallery1">
+        <img src="https://source.unsplash.com/B4nh4eF_QPk/" width="100%" height="100%">
       </a>
     </div>
 
    <div class="item col-sm-6 col-md-4 mb-3">
-      <a href="images/9.jpg" class="fancybox" data-fancybox="gallery1">
-        <img src="images/9.jpg" width="100%" height="100%">
-      </a>
-    </div>
-
-   <div class="item col-sm-6 col-md-4 mb-3">
-      <a href="images/10.jpg" class="fancybox" data-fancybox="gallery1">
-        <img src="images/10.jpg" width="100%" height="100%">
+      <a href="https://source.unsplash.com/bOBM8CB4ZC4/" class="fancybox" data-fancybox="gallery1">
+        <img src="https://source.unsplash.com/bOBM8CB4ZC4/" width="100%" height="100%">
       </a>
     </div>
 
     <div class="item col-sm-6 col-md-4 mb-3">
-        <a href="images/8.jpg" class="fancybox" data-fancybox="gallery1">
-          <img src="images/8.jpg" width="100%" height="100%">
+        <a href="https://source.unsplash.com/3p0frYbUNV8/" class="fancybox" data-fancybox="gallery1">
+          <img src="https://source.unsplash.com/3p0frYbUNV8/" width="100%" height="100%">
         </a>
       </div>
 
    <div class="item col-sm-6 col-md-4 mb-3">
-      <a href="images/11.jpg" class="fancybox" data-fancybox="gallery1">
-        <img src="images/11.jpg" width="100%" height="100%">
+      <a href="https://source.unsplash.com/3oBM1QXR--Q/" class="fancybox" data-fancybox="gallery1">
+        <img src="https://source.unsplash.com/3oBM1QXR--Q/" width="100%" height="100%">
       </a>
     </div>
     <div class="item col-sm-6 col-md-4 mb-3">
-        <a href="images/12.jpg" class="fancybox" data-fancybox="gallery1">
-          <img src="images/12.jpg" width="100%" height="100%">
+        <a href="https://source.unsplash.com/cf4ucL4gh3Y/" class="fancybox" data-fancybox="gallery1">
+          <img src="https://source.unsplash.com/cf4ucL4gh3Y/" width="100%" height="100%">
         </a>
       </div>
       <div class="item col-sm-6 col-md-4 mb-3">
-        <a href="images/13.jpg" class="fancybox" data-fancybox="gallery1">
-          <img src="images/13.jpg" width="100%" height="100%">
+        <a href="https://source.unsplash.com/7m8FAUDMZCM/" class="fancybox" data-fancybox="gallery1">
+          <img src="https://source.unsplash.com/7m8FAUDMZCM/" width="100%" height="100%">
         </a>
       </div>
      
