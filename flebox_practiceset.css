@@ -69,9 +69,10 @@ body {
       }
 
       .container {
-        display: flex;
+        display: inline-flex;
         justify-content: space-evenly;
         flex-direction: row;
+        gap: 0;
         /* flex-wrap: wrap; */
       }
       .first {
@@ -80,6 +81,8 @@ body {
         background: url(https://source.unsplash.com/437SJXrHQF4/);
         /* background-position: top left; */
         background-size: cover;
+        flex: 1;
+        transition: all 0.5s ease-in-out;
       }
 
       .second {
@@ -89,6 +92,8 @@ body {
         /* background: url(images/6.jpg); */
         /* background-position: top left; */
         background-size: cover;
+        flex: 1;
+
 
       }
       .third {
@@ -98,6 +103,8 @@ body {
         /* background-position: top left; */
         background-size: cover;
         background-position: center;
+        flex: 1;
+
 
       }
       .fourth {
@@ -107,6 +114,8 @@ body {
         /* background-position: top left; */
         background-size: cover;
         background-position: center;
+        flex: 1;
+
 
       }
       .fifth {
@@ -116,6 +125,8 @@ body {
         /* background-position: top left; */
         background-size: cover;
         background-position: center;
+        flex: 1;
+
 
       }
       .sixth {
@@ -125,6 +136,8 @@ body {
         /* background-position: top left; */
         background-size: cover;
         background-position: center;
+        flex: 1;
+
 
       }
       .seventh {
@@ -134,6 +147,8 @@ body {
         /* background-position: top left; */
         background-size: cover;
         background-position: center;
+        flex: 1;
+
 
       }
       .eigth {
@@ -143,6 +158,8 @@ body {
         /* background-position: top left; */
         background-size: cover;
         background-position: center;
+        flex: 1;
+
 
       }
       .ninth {
@@ -152,6 +169,8 @@ body {
         /* background-position: top left; */
         background-size: cover;
         background-position: center;
+        flex: 1;
+
 
       }
       .tenth {
@@ -161,7 +180,16 @@ body {
         /* background-position: top left; */
         background-size: cover;
         background-position: center;
+        flex: 1;
 
+
+      }
+      
+      /* hover effect on first child */
+
+      .first:hover{
+        flex: 2;
+        background-position: center;
       }
       
 
@@ -177,14 +205,22 @@ body {
         text-decoration: none;
         color: white;
       }
+
+      .container > div{
+        width: 200px;
+        min-width: 200px;
+
+
+      }
+      
       @media only screen and (max-width:1300px){
 
-              .container{
-                flex-wrap: wrap;
-                justify-content: center;
-              }
+        .container{
+          flex-wrap: wrap;
+          justify-content: center;
+        }
 
-            }
+      }
 
       @media only screen and (max-width:1000px){
 
@@ -194,8 +230,6 @@ body {
         }
 
       }
-
-      
 
 
       @media only screen and (max-width:400px){
@@ -213,11 +247,11 @@ body {
         }
         .container{
           flex-wrap: wrap;
+           width: auto;
         }
         .cancel{
           background: url(images/cancel.png);
         }
-  
         
   
 
@@ -280,4 +314,12 @@ body {
         #menu1{
           display: none;
         }
+      }
+
+      @media only screen and (max-width: 1735px){
+
+        .container{
+          flex-wrap: wrap;
+        }
+
       }
